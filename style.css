@@ -2,6 +2,10 @@ body {
   font-family: monospace;
 }
 
-copyright {
+.copyright {
   opacity: 0.5;
+}
+
+.navigation {
+  display: none;
 }
