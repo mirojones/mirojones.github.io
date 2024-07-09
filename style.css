@@ -6,6 +6,6 @@ body {
   opacity: 0.5;
 }
 
-.navigation {
+#navigation {
   display: none;
 }
