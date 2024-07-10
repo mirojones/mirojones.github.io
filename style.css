@@ -3,10 +3,10 @@ body {
   background-color: #ffeeee;
 }
 
-.copyright {
-  opacity: 0.5;
+a {
+  color: inherit;
 }
 
-#navigation {
-  display: none;
+.copyright {
+  opacity: 0.5;
 }
