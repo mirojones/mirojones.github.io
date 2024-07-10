@@ -3,8 +3,8 @@ body {
   background-color: #ffeeee;
 }
 
-a {
-  color: inherit;
+.link {
+  text-decoration: underline;
 }
 
 .copyright {
