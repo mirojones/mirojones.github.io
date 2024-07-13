@@ -9,6 +9,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
+#settings {
+  font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
+  float: right;
+}
+
 a {
   text-decoration: underline;
   color: inherit;
