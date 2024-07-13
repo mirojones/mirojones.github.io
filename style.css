@@ -1,15 +1,11 @@
 body {
   font-family: monospace;
-  text-size: 16px;
+  color: #222;
 }
 
-.link {
+a {
   text-decoration: underline;
   color: inherit;
-}
-
-.copyright {
-  opacity: 0.5;
 }
 
 @media (prefers-color-scheme: dark) {
