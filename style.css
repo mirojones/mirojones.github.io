@@ -36,5 +36,6 @@ a:active {
 
 #settings {
   height: 100%;
-  width: 50px
+  width: 50px;
+  position: fixed;
 }
