@@ -44,3 +44,7 @@ a:active {
   font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
   float: right;
 }
+
+#settingsContent {
+  padding: 20px;
+}
