@@ -31,12 +31,13 @@ a:active {
 
 #settings {
   height: 100%;
-  width: 50px;
-  position: fixed;
+  width: 0px; /* change this value with js */
+  position: fixed; /* no vertical scroll on settings */
   background-color: white;
   color: black;
-  z-index: 1;
-  top: 0;
+  z-index: 1; /* in front, i think? */
+  top: 0; /* stay at top */
+  right: 0; /* stay on right side of page */
 }
 
 #settingsButton {
