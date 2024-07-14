@@ -5,13 +5,15 @@ body {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222222;
+        color: white;
+    }
 }
 
-#settingsButton {
-  font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
-  float: right;
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
 }
 
 a {
@@ -27,15 +29,14 @@ a:active {
   color: #f70;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222222;
-        color: white;
-    }
-}
-
 #settings {
   height: 100%;
   width: 50px;
   position: fixed;
+  background-color: inherit;
+}
+
+#settingsButton {
+  font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
+  float: right;
 }
