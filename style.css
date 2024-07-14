@@ -36,6 +36,7 @@ a:active {
   background-color: white;
   color: black;
   z-index: 1;
+  top: 0
 }
 
 #settingsButton {
