@@ -38,6 +38,7 @@ a:active {
   z-index: 3; /* in front, i think? */
   top: 0; /* stay at top */
   right: 0; /* stay on right side of page */
+  transition: 0.5s;
 }
 
 #settingsButton, #closeSettings {
