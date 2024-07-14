@@ -16,6 +16,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
 }
 
+h1 {
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  float: left;
+  padding-bottom: 2px;
+}
+
 a {
   text-decoration: underline;
   color: inherit;
@@ -35,7 +42,7 @@ a:active {
   position: fixed; /* no vertical scroll on settings */
   background-color: #eee;
   color: black;
-  z-index: 3; /* in front, i think? */
+  z-index: 1; /* in front, i think? */
   top: 0; /* stay at top */
   right: 0; /* stay on right side of page */
   transition: 0.5s;
