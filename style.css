@@ -26,12 +26,12 @@ a {
   cursor: pointer;
 }
 
-a:hover {
+a:hover, a:active {
   color: #f70;
 }
 
-a:active {
-  color: #f70;
+a s {
+  cursor: help;
 }
 
 #settings {
