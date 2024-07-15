@@ -49,3 +49,7 @@ a:active {
 #settingsContent {
   padding: 20px;
 }
+
+#settingsClear {
+  float: right;
+}
