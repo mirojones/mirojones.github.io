@@ -6,10 +6,9 @@ function closeSettings() {
   document.getElementById("settings").style.width = "0px";
 }
 
-function colorChange(bg, txt, lnk) {
+function colorChange(bg, txt) {
   document.body.style.backgroundColor = bg;
   document.body.style.color = txt;
-  document.body.a.style.color = lnk;
 }
 
 function font(family, size) {
