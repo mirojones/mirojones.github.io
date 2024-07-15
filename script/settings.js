@@ -15,3 +15,7 @@ function font(family, size) {
   document.body.style.fontFamily = family;
   document.body.style.fontSize = size;
 }
+
+window.addEventListener("load", (event) => {
+  new cursoreffects.bubblesCursor();
+});
