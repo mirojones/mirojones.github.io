@@ -34,6 +34,10 @@ a s {
   cursor: help;
 }
 
+.pnt {
+  cursor: pointer;
+}
+
 #settings {
   height: 100%;
   width: 0px; /* change this value with js */
@@ -49,7 +53,6 @@ a s {
 #settingsButton {
   font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
   float: right;
-  cursor: pointer;
 }
 
 #settingsContent {
