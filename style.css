@@ -41,9 +41,10 @@ a:active {
   transition: 0.5s;
 }
 
-#settingsButton, #closeSettings {
+#settingsButton {
   font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
   float: right;
+  cursor: pointer;
 }
 
 #settingsContent {
