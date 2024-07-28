@@ -16,6 +16,7 @@
     <header>
       <h1><span onclick="window.location.reload();" class="pnt">Miro Jones</span><span class="pnt" id="settingsButton" onclick="openSettings()">&#9881;<!-- ⚙️ --></span></h1>
     </header>
+    <main></main>
     <div id="settings">
       <div id="settingsContent">
         <button id="settingsClose" onclick="closeSettings()">Done</button><button id="settingsClear" onclick="closeSettings(); window.location.reload();">Clear</button>
@@ -41,6 +42,7 @@
       <li><a href="https://decolonialvexillology.github.io">Decolonial Vexillology</a> (in progress)</li>
       <li><a href="https://mirojones.github.io/notes">Substack Notes Share Link Generator</a></li>
     </ul>
+    <footer><iframe src="https://mirojones.github.io/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe></footer>
   </body>
   <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
   <script src="https://mirojones.github.io/script/settings.js"></script>
