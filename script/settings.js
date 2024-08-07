@@ -11,7 +11,10 @@ function colorChange(bg, txt) {
   document.body.style.color = txt;
 }
 
-function font(size, family1, family2, family3) {
+function font(family1, family2, family3) {
   document.body.style.fontFamily = "family1,family2,family3";
+}
+
+function fontS(size) {
   document.body.style.fontSize = "size";
 }
