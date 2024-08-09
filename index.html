@@ -30,10 +30,12 @@
             <li><span role="button" onclick="colorChange('#00F', '#fff')">Blue Screen of Death</span></li>
           </ul>
           <h2>Font</h2>
-          <label for="fontFamily">Family</label>
-          <input type="text" onchange="font(this, 'monospace', 'sans-serif')" placeholder="e.g. Courier New"></input><br/>
-          <label for="fontSize">Size</label>
-          <input type="text" onchange="fontS(this)" placeholder="e.g. 16px or 2rem"></input>
+          <input type="number" id="sizeInput" min="1" max="100" value="1">
+          <select id="unitSelector">
+            <option value="rem" selected>rem</option>
+            <option value="em">em</option>
+            <option value="px">px</option>
+          </select>
         </div>
       </div>
       <p>Miro Jones is a vexillologist, philatelist and local post operator in Bermagui, <s>NSW</s>, <s class="disp">Australia<span class="tooltip">Aboriginal Land</span></s>.</p>
