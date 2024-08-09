@@ -15,6 +15,9 @@ function font(family1, family2, family3) {
   document.body.style.fontFamily = "family1,family2,family3";
 }
 
-function fontS(size) {
-  document.body.style.fontSize = "size";
-}
+const sizeSelector = document.getElementById('sizeSelector');
+    const textElement = document.body;
+
+    sizeSelector.addEventListener('change', () => {
+      textElement.style.fontSize = sizeSelector.value;
+    });
