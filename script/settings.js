@@ -6,18 +6,10 @@ function closeSettings() {
   document.getElementById("settings").style.width = "0px";
 }
 
-function colorChange(bg, txt) {
+function bgColor(bg) {
   document.body.style.backgroundColor = bg;
+}
+
+function textColor(txt) {
   document.body.style.color = txt;
 }
-
-function font(family1, family2, family3) {
-  document.body.style.fontFamily = "family1,family2,family3";
-}
-
-    const sizeSelector = document.getElementById('sizeSelector');
-    const textElement = document.getElementById("body");
-
-    sizeSelector.addEventListener('change', () => {
-      textElement.style.fontSize = sizeSelector.value;
-    });
