@@ -1,0 +1,98 @@
+body {
+  font-family: monospace;
+  color: #222;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222222;
+        color: white;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+}
+
+iframe {
+  border: none;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover, a:active {
+  color: #f70;
+}
+
+a s {
+  cursor: help;
+}
+
+.pnt {
+  cursor: pointer;
+}
+
+#settings {
+  height: 100%;
+  width: 0px; /* change this value with js */
+  position: fixed; /* no vertical scroll on settings */
+  background-color: #eee;
+  color: black;
+  z-index: 1; /* in front, i think? */
+  top: 0; /* stay at top */
+  right: 0; /* stay on right side of page */
+  transition: 0.5s;
+}
+
+#settingsButton {
+  font-family: "Noto Emoji", "Noto Sans Symbols", sans-serif;
+  float: right;
+}
+
+#settingsContent {
+  padding: 20px;
+}
+
+.disp {
+  position: relative;
+  display: inline-block;
+}
+
+span.disp {
+  border-bottom: 1px dotted;
+}
+
+.disp .tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+}
+
+.disp .tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.disp:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
