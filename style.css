@@ -3,3 +3,9 @@
   font-size: 1rem;
   font-family: monospace;
 }
+
+button {
+  padding: inherit;
+  color: inherit;
+  background-color: blue;
+}
