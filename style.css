@@ -9,3 +9,12 @@ button {
   color: inherit;
   background-color: inherit;
 }
+
+.button-style {
+  background-color: #ff8800;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
