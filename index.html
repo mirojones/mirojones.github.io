@@ -8,14 +8,17 @@
   <body>
     <header>
       <h1><button href="#" onclick="window.location.reload(true);">Miro Jones</button></h1>
-    </header>
-    <main>
       <section id="welcome">
         <p>Welcome to Miro's website. Click on the button to continue.</p>
-        <button style="background-color: #ff0000; color: #ffffff">Free Palestine!</button>
+        <button onclick="toggle(main)" class="button-style">Free Palestine!</button>
       </section>
-      <section id="navigation">
-      </section>
+    </header>
+    <main id="main" class="hide">
+        <nav>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
     </main>
     <footer>
       <p>&copy; Miro Jones</p>
