@@ -1,5 +1,7 @@
+/* Global styles.
+   Add to every HTML file */
+
 * {
-  cursor: url(https://mirojones.github.io/icons/cursors/Cursor-ps-2.svg), none;
   font-size: 1rem;
   font-family: monospace;
 }
@@ -13,8 +15,14 @@ button {
 .button-style {
   background-color: #ff8800;
   color: white;
+  text-decoration: none;
 }
 
-.hide {
-  display: none;
+.link-style {
+  background-color: inherit;
+  color: inherit;
+  text-decoration: underline;
+  font-size: inherit;
+  font-family: inherit;
+  font: inherit;
 }
