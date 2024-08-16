@@ -26,3 +26,10 @@ button {
   font-family: inherit;
   font: inherit;
 }
+
+@media (prefers-color-scheme: dark) {
+   body {
+      color: #fff;
+      background-color: #000;
+   }
+}
