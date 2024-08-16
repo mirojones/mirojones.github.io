@@ -1,1 +1,0 @@
-# Miro's website
