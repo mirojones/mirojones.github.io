@@ -14,7 +14,7 @@ a {
 }
 
 a:active, a:hover {
-  text-decoration: italic, underline;
+  font-style: italic;
 }
 
 h1 {
