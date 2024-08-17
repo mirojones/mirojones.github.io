@@ -4,3 +4,8 @@ body {
   width: 100vmin;
   margin: auto;
 }
+
+h1 {
+  text-decoration: inherit;
+  color: inherit;
+}
