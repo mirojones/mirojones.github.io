@@ -1,4 +1,6 @@
 body {
   font-size: 1rem;
   font-family: sans-serif;
+  width: 100vmin;
+  margin: auto;
 }
