@@ -1,3 +1,7 @@
+:root {
+  --accent: #f00;
+}
+
 body {
   font-size: 1rem;
   font-family: sans-serif;
@@ -8,4 +12,12 @@ body {
 h1 {
   text-decoration: inherit;
   color: inherit;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:active, a:hover {
+  text-decoration: italic, underline;
 }
