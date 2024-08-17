@@ -1,10 +1,10 @@
-const yearsElements = document.getElementsByClassName("years");
+const yearsElement = document.getElementById("years");
+var copyrightBeginYear = 2024;
+const currentYear = new Date().getFullYear();
 function checkYear() {
-  const currentYear = new Date().getFullYear();
-  if (currentYear >= 2025) {
-    for (let i = 0; i < yearsElements.length; i++) {
-      yearsElements[i].textContent = "2024-";
-    }
-  }
+  if (currentYear >= copyrightBeginYear + 1) {
+    yearsElement.innerHTML = copyrightBeginYear + "-" + currentYear;
+  } else
+    yearsElement.innerHTML = copyrightBeginYear;
 }
 checkYear();
