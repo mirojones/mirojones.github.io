@@ -3,9 +3,12 @@
   --accent2: #149954;
 }
 
+* {
+  font-family: monospace;
+}
+
 body {
   font-size: 1rem;
-  font-family: monospace;
 }
 
 a {
