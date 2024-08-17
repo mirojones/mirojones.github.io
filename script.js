@@ -1,4 +1,4 @@
-function play(aId) { // aId = id of audio element
-  var audio = document.getElementById(aId);
+function play() {
+  var audio = document.getElementById("kiribati");
   audio.play();
 }
