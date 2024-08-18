@@ -17,6 +17,7 @@ a {
 
 a:active, a:hover {
   font-style: italic;
+  color: var(--accent2);
 }
 
 h1 {
