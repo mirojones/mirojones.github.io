@@ -26,10 +26,6 @@ h1 {
   color: inherit;
 }
 
-embed {
-  padding: 0;
-}
-
 /* email obfuscation */
 span.email b {
 	display: none;
