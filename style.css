@@ -26,6 +26,16 @@ h1 {
   color: inherit;
 }
 
+/* placename popup bar */
+#placenamesBox {
+	background-color: #ccc;
+	position: fixed;
+	height: auto;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+}
+
 /* email obfuscation */
 span.email b {
 	display: none;
