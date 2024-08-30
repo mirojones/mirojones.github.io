@@ -3,9 +3,22 @@
   --accent2: #149954;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
   font-size: 1rem;
   font-family: monospace;
+	width: 700px;
+	margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+	body {
+		width: 100%;
+	}
 }
 
 h1, h2, h3, h4, h5, h5, h6 {
