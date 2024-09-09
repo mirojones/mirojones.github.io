@@ -1,3 +1,3 @@
 if (confirm("Free palestine?") == false) {
-  window.close();
+  window.open("nofreepalestine.html", "_self");
 }
