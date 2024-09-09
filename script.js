@@ -1,3 +1,3 @@
-if (window.confirm("Free palestine?") = false) {
+if (window.confirm("Free palestine?") == false) {
   window.close();
 }
