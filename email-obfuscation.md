@@ -6,7 +6,7 @@ HTML:
 CSS:
 ```css
 span.email b {
-	display: none;
+  display: none;
 }
 ```
 # UnMonumental style guide
