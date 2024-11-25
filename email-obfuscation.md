@@ -9,4 +9,3 @@ span.email b {
   display: none;
 }
 ```
-# UnMonumental style guide
