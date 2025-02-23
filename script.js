@@ -5,7 +5,7 @@ const captchaCtx = document.getElementById("captcha-canvas").getContext("2d"),
   captchaSlider = document.getElementById("captcha-slider"),
   captchaSliderLabel = document.querySelector(".captcha-slider-label"),
   captcha = document.querySelector(".captcha"),
-  content = document.getElementById(".content");
+  content = document.querySelector(".content");
 
 var captchaFireX = 10,
   failedAttempts = 0;
@@ -47,11 +47,3 @@ captchaSlider.addEventListener("change", () => {
     }, 500);
   }
 });
-
-if (navigator.geolocation) {
-  navigator.geolocation.getCurrentPosition(function (position) {
-    var latitude = position.coords.latitude;
-    var longitude = position.coords.longitude;
-    console.log(`current location: ${latitude}, ${longitude}`);
-  });
-}
