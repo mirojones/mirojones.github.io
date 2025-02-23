@@ -34,3 +34,125 @@ a:active, a:hover {
 span.email b {
   display: none;
 }
+
+/* captcha */
+.captcha {
+  display: flex;
+  justify-content: center;
+}
+
+.captcha-cont {
+  font-family: sans-serif;
+}
+
+.captcha-canvas {
+  border: 1px solid silver;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.captcha-slider-cont {
+  position: relative;
+}
+
+.captcha-slider {
+  --bg-r: #ebebeb;
+  --bg-l: #c2c2c2;
+  --bg-thumb: #999;
+  --bg-img-thumb: url("https://miro.boats/assets/icons/arrow-right.svg");
+  --height: 30px;
+  --width: 300px;
+  --border-radius: 5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--bg-r);
+  height: var(--height);
+  overflow: hidden;
+  width: var(--width);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.captcha-slider:active,
+.captcha-slider:hover {
+  --bg-thumb: #707070;
+}
+
+.captcha-slider[data-captcha="fail"] {
+  --bg-l: #f5dbdc;
+  --bg-thumb: #e85855;
+  --bg-img-thumb: url("https://miro.boats/assets/icons/x.svg");
+}
+
+.captcha-slider[data-captcha="pass"] {
+  --bg-l: #cdeee9;
+  --bg-thumb: #02bb73;
+  --bg-img-thumb: url("https://miro.boats/assets/icons/check.svg");
+}
+
+.captcha-slider-label {
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.captcha-slider-label[data-captcha="under"] {
+  position: static;
+}
+
+.captcha-slider::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: var(--height);
+  border-radius: var(--border-radius);
+}
+
+.captcha-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: var(--bg-thumb);
+  background-image: var(--bg-img-thumb);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: var(--border-radius);
+  box-shadow: -210px 0 0 200px var(--bg-l);
+  cursor: pointer;
+  height: var(--height);
+  width: var(--height);
+  border: 0;
+}
+
+.captcha-slider::-moz-range-thumb {
+  background-color: var(--bg-thumb);
+  background-image: var(--bg-img-thumb);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: var(--border-radius);
+  box-shadow: -1010px 0 0 1000px var(--bg-l);
+  cursor: pointer;
+  height: var(--height);
+  width: var(--height);
+  border: 0;
+}
+
+.captcha-slider::-moz-range-track {
+  background-color: var(--bg-r);
+}
+
+.captcha-slider::-moz-range-progress {
+  background-color: var(--bg-l);
+  height: 30px;
+}
+
+.captcha-slider::-ms-fill-upper {
+  background-color: var(--bg-r);
+}
+
+.captcha-slider::-ms-fill-lower {
+  background-color: var(--bg-l);
+}
