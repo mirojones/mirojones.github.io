@@ -1,4 +1,4 @@
-alert("site down for maintainance. please come back later")
+// alert("site down for maintainance. please come back later");
 
 // captcha
 const captchaCtx = document.getElementById("captcha-canvas").getContext("2d"),
