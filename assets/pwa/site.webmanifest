@@ -1,19 +1,40 @@
 {
-    "name": "Miro Jones",
-    "short_name": "Miro",
-    "icons": [
-        {
-            "src": "assets/pwa/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "assets/pwa/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "background_color": "#ffffff",
+  "categories": ["games", "photo", "social"],
+  "description": "Miro Jones's personal profile and portfolio",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/pwa/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/pwa/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Miro Jones",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "scope": "https://miro.boats/",
+  "screenshots": [
+    {
+      "src": "assets/pwa/screenshot-captcha.png",
+      "sizes": "2244x2016",
+      "type": "image/png",
+      "label": "A screenshot of a humerous CAPTCHA where the user is prompted to drag a fire emoji over either the Israeli or Palestinian flag",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/pwa/screenshot-home.png",
+      "sizes": "2240x2020",
+      "type": "image/png",
+      "label": "A screenshot of a website with serif headings and monospace body text",
+      "form_factor": "wide"
+    }
+  ],
+  "short_name": "Miro",
+  "theme_color": "#ffffff"
 }
