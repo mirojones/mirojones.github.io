@@ -47,3 +47,6 @@ captchaSlider.addEventListener("change", () => {
     }, 500);
   }
 });
+
+// footer copyright year
+copyYear.set(2024, document.getElementById("copyyear"));
